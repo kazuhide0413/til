@@ -10,3 +10,18 @@ https://zenn.dev/kenkenlysh/articles/2e5c881074a791
 2.git branch,git status,git add .,git commit -m '',git push origin データ名までmacのターミナルで終わらせる
 3.git hub上でプルリクだす（rspecカリキュラム参考）
 4.コメント書いとく。書かんと見る人がわからない。
+
+# 2025090９
+解答例を確認してPullRequestのマージ
+最後に解答例を確認して、修正等なければGitHub上からPullRequestをマージします。
+
+PullRequestのマージ
+最後にブランチをdevelopにマージして完了です。
+下記を参考にGitHub上でマージしてください。
+作成したPullRequestの画面の下部にMerge pull requestボタンをクリックします、これでマージ完了です。
+
+課題完了！次のchapterへ
+GitHubのdevelopブランチに実装した内容が反映されているかと思います。
+自分のローカルにもdevelopのコードをgit pullコマンドで反映させておきます。
+次のchapterからもこのような流れで進めていきますので、PullRequestの作成に困ったらこちらの流れを見返すようにしてください。
+
