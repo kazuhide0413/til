@@ -25,3 +25,6 @@ GitHubのdevelopブランチに実装した内容が反映されているかと�
 自分のローカルにもdevelopのコードをgit pullコマンドで反映させておきます。
 次のchapterからもこのような流れで進めていきますので、PullRequestの作成に困ったらこちらの流れを見返すようにしてください。
 
+**ターミナルでの操作**
+git chckout develop
+git pull origin develop
