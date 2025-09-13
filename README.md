@@ -11,7 +11,7 @@ https://zenn.dev/kenkenlysh/articles/2e5c881074a791
 3.git hub上でプルリクだす（rspecカリキュラム参考）
 4.コメント書いとく。書かんと見る人がわからない。
 
-# 2025090９
+# 20250909
 解答例を確認してPullRequestのマージ
 最後に解答例を確認して、修正等なければGitHub上からPullRequestをマージします。
 
