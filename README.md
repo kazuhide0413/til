@@ -32,13 +32,11 @@ git pull origin develop
 # 20260110
 googleログイン（Render本番）
 
-google console
-
-承認済みの JavaScript 生成元
-https://〇〇.onrender.com
-承認済みのリダイレクト URI
-https://〇〇.onrender.com/users/auth/google_oauth2/callback
-
-Render
+google console  
+承認済みの JavaScript 生成元  
+https://〇〇.onrender.com  
+承認済みのリダイレクト URI  
+https://〇〇.onrender.com/users/auth/google_oauth2/callback  
+Render  
 EnvironmentsにGOOGLE_CLIENT_IDとGOOGLE_CLIENT_SECRETを登録する
 
