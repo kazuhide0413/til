@@ -40,3 +40,26 @@ https://〇〇.onrender.com/users/auth/google_oauth2/callback
 Render  
 EnvironmentsにGOOGLE_CLIENT_IDとGOOGLE_CLIENT_SECRETを登録する
 
+# 20260114
+今更ですが、こまめにデプロイした方がよい
+
+ブランチ切って初めてのとき
+・git add
+・git commit -m ''
+・git push -u origin ブランチ名
+・初めての時はリポジトリにPRが自動で作られ（develop）それをPR,merge
+・デプロイ確認できる
+
+2回目以降
+・まだ修正してデプロイ確認したいとき
+・ブランチはdevelopにかえない
+・git add
+・git commit -m ''
+・git push
+・自分でプルリク作る（develop←ブランチ名）自動で作れない？
+・それをPR,merge
+・デプロイ確認できる
+
+しばらく修正ないなーと思った時
+・ローカルブランチをdevelopに移動 git checkout develop
+・git pull origin develop
