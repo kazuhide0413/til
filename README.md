@@ -63,3 +63,11 @@ EnvironmentsにGOOGLE_CLIENT_IDとGOOGLE_CLIENT_SECRETを登録する
 しばらく修正ないなーと思った時
 ・ローカルブランチをdevelopに移動 git checkout develop
 ・git pull origin develop
+
+# 20260129
+1. ngrok を Mac にインストール（Docker外）
+2. ngrok アカウント作成（無料）
+3. authtoken 登録
+4. Railsが localhost で開けること確認
+5. ngrok 起動（Mac側）
+6. Rails HostAuthorization 対策
