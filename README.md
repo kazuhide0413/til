@@ -66,8 +66,17 @@ EnvironmentsにGOOGLE_CLIENT_IDとGOOGLE_CLIENT_SECRETを登録する
 
 # 20260129
 1. ngrok を Mac にインストール（Docker外）
+brew install ngrok/ngrok/ngrok
+ngrok version
 2. ngrok アカウント作成（無料）
+https://dashboard.ngrok.com/signup
 3. authtoken 登録
+ngrok config add-authtoken xxxxxxxxxxxxx
 4. Railsが localhost で開けること確認
+http://localhost:3000
 5. ngrok 起動（Mac側）
+ngrok http 3000
+Forwarding https://xxxx.ngrok-free.dev -> http://localhost:3000
 6. Rails HostAuthorization 対策
+config/environments/development.rb に追加：
+config.hosts.clear
